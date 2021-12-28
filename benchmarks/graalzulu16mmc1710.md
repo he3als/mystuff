@@ -17,7 +17,7 @@ Version: graalvm-ce-java16-21.2.0 (provided by GitHub releases)
 2. 00:12.66
 3. 00:12.40
 Mean: 12.6733333333 seconds
-Version: zulu16.30.15-ca-fx-jre16.0.1-win_x64 (provided by Lunar Client in the %USERPROFILE%\.lunarclient\jre\1.7\ directory)
+Version: zulu16.30.15-ca-fx-jre16.0.1-win_x64 (provided by Lunar Client in the `%USERPROFILE%\.lunarclient\jre\1.7\` directory)
 
 ## Configuration
 #### Specs:
