@@ -9,12 +9,14 @@ Here I benchmarked the Zulu JRE provided by Lunar Client vs GraalVM (both Java 1
 - 0.1% percentile FPS: 712.95
 - 1% percentile FPS: 843.6
 - Average FPS: 1491.8
+
 Score (adding them all up): 3048.35
 
 #### GraalVM:
 - 0.1% percentile FPS: 723.266666667
 - 1% percentile FPS: 830.016666667
 - Average FPS: 1468.3
+
 Score (adding them all up): 3021.58333333
 
 ## Startup Times
