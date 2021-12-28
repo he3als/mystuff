@@ -68,10 +68,7 @@ Version: zulu16.30.15-ca-fx-jre16.0.1-win_x64 (provided by Lunar Client in the `
 5. Repeat 3 times, reboot then repeat 3 times. Then move onto the next JVM
 
 ## Conclusion
-Technically, the Zulu JRE performed better in this instance. However, it is that close that it is most likely just normal flucuations. Both GraalVM and the Zulu JRE performed around the same.
-
-## How I could Improve
-I could test out the latest version of Zulu vs GraalVM on Java 17, I am not sure if Lunar would work with that on 1.7.10 though.
+Technically, the Zulu JRE performed better in this instance. However, it is that close that it is most likely just normal flucuations. Both GraalVM and the Zulu JRE performed around the same. Keep in mind that support for Java 16 with GraalVM was labeled as experimental (when GraalVM CE 16 was last released) and now GraalVM CE 17 is not labeled as experimental. This most likely means that they have improved GraalVM since then.
 
 ## What next?
 - 1.8.9 benchmarking
