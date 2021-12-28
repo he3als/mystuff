@@ -59,4 +59,5 @@ I could test out the latest version of Zulu vs GraalVM on Java 17, I am not sure
 - 1.8.9 benchmarking
 - Singleplayer
 - Different servers/spawns
+- Different JVM arguments
 - I am not sure, I will think of more.
