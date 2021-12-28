@@ -4,6 +4,19 @@ Here I benchmarked the Zulu JRE provided by Lunar Client vs GraalVM (both Java 1
 ![image](https://user-images.githubusercontent.com/65787561/147582844-5fb9af62-6919-4a12-90fa-ca43ef6b29c0.png)
 ![image](https://user-images.githubusercontent.com/65787561/147582942-c7409d49-c3a4-4642-81b2-c7e7d1b98e03.png)
 
+## Averages
+#### Zulu:
+- 0.1% percentile FPS: 712.95
+- 1% percentile FPS: 843.6
+- Average FPS: 1491.8
+Score (adding them all up): 3048.35
+
+#### GraalVM:
+- 0.1% percentile FPS: 723.266666667
+- 1% percentile FPS: 830.016666667
+- Average FPS: 1468.3
+Score (adding them all up): 3021.58333333
+
 ## Startup Times
 #### GraalVM:
 1. 00:12.13
@@ -51,6 +64,9 @@ Version: zulu16.30.15-ca-fx-jre16.0.1-win_x64 (provided by Lunar Client in the `
 3. Wait 20 seconds for everything to load and do not move the mouse or move at all
 4. Capture with CapFrameX using keybind for 20 secs
 5. Repeat 3 times, reboot then repeat 3 times. Then move onto the next JVM
+
+## Conclusion
+Technically, the Zulu JRE performed better in this instance. However, it is that close that it is most likely just normal flucuations. Both GraalVM and the Zulu JRE performed around the same.
 
 ## How I could Improve
 I could test out the latest version of Zulu vs GraalVM on Java 17, I am not sure if Lunar would work with that on 1.7.10 though.
