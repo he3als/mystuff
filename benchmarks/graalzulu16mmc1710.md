@@ -34,6 +34,13 @@ Version: graalvm-ce-java16-21.2.0 (provided by GitHub releases)
 Mean: 12.6733333333 seconds
 Version: zulu16.30.15-ca-fx-jre16.0.1-win_x64 (provided by Lunar Client in the `%USERPROFILE%\.lunarclient\jre\1.7\` directory)
 
+## Memory Usage
+#### GraalVM:
+![Taskmgr_hXiYpJ2mWG](https://user-images.githubusercontent.com/65787561/147586377-167efa88-ded6-42b8-882b-a4543b4b82df.png)
+#### Zulu:
+![Taskmgr_glbZS7wDub](https://user-images.githubusercontent.com/65787561/147586392-01f6c778-7526-470e-86b9-e1158158f2e4.png)
+
+I am not sure why GraalVM takes up more memory... I used the same JVM flags. Just a guess, but I presume it could be the fact that I tested with an old and unsupported version of GraalVM (Java 16 experimental).
 ## Configuration
 #### Specs:
 - CPU: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
