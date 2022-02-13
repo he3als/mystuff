@@ -1,2 +1,4 @@
 # Random Stuff
-I will upload random stuff I may need for personal use here. If you discover this and use one of my scripts for personal use and it does not go well for you, I am not responsible. Feel free to commit if you would like, but I do not really care. The quality of any files in this repository can vary.
+**⚠ WARNING: If you discover this and use something in this repository and something bad happens, I am not responsible as you have been warned! Check the what you get first, they will not be intentionally malicious though. They can do un-intentional changes to your computer!**
+
+I will upload stuff I may need here for personal use here and people that may need them. Feel free to commit if you would like. The quality of anything in this repository is not going to always be great (a lot of the time, it will probably be not good lol). I am also using this as an archive of sorts for my old scripts and other random things like that, which people may find useful.
